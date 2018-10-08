@@ -37,6 +37,11 @@ class ResetPaaswordViewController: UIViewController {
                     self.view.endEditing(true)
                     
                     // return to the login screen
+                    // 因為這裡啟用了Navigation，因此要回上一頁就要呼叫navigationController 函式來執行popview回上一頁
+                    // navigationController 有三種方式：
+                    // popView : 回上一頁
+                    // rootview：到最前面的一頁
+                    // viewtController ： 到指定的頁面
                     if let navcontroller = self.navigationController {
                         navcontroller.popViewController(animated: true)
                     }
