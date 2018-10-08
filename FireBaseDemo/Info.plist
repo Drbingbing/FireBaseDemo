@@ -6,6 +6,19 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Rubik Black</string>
+		<string>Rubik BlackItalic</string>
+		<string>Rubik-Bold</string>
+		<string>Rubik-BoldItalic</string>
+		<string>Rubik-Italic</string>
+		<string>Rubik-Light</string>
+		<string>Rubik-LightItalic</string>
+		<string>Rubik Medium</string>
+		<string>Rubik-MediumItalic</string>
+		<string>Rubik-Regular</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
