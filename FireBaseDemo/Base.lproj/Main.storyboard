@@ -153,6 +153,9 @@
                                         <real key="value" value="6"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="facebookLoginWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dVJ-E6-1aC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bing Bing House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xB4-7D-pei">
                                 <rect key="frame" x="22" y="85" width="372" height="56"/>
@@ -727,7 +730,7 @@
         <!--BIng Bing Lights-->
         <scene sceneID="V49-jg-LDZ">
             <objects>
-                <tableViewController id="0Bg-jC-R28" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Welcome" id="0Bg-jC-R28" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s5e-Tp-qs4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2058"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
