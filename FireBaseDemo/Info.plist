@@ -54,5 +54,26 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>fb312808575967578</string>
+            </array>
+        </dict>
+        </array>
+    <key>FacebookID</key>
+    <string>312808575967578</string>
+    <key>FacebookDisplayName</key>
+    <string>BingBing House v2</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-share-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+        </array>
+    
 </dict>
 </plist>
